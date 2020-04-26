@@ -83,6 +83,9 @@ global <-
 
 write.csv(global, "global.csv")
 
+# Upload global csv
+global <- read.csv("global.csv")
+
 ###############################
 ########## Plot Data ##########
 ###############################
@@ -156,24 +159,6 @@ line_global <-
   labs(linetype = "")
 
 line_global
-
-# # Line graph 4 starting at 350ppm
-# line_350 <- 
-#   ggplot() +
-#   geom_line(data = national, aes(x = year, y = mean, color = iso, group = iso), size = 0.5, position = pd) +
-#   geom_line(data = global, aes(x = year, y = mean, linetype = "Global Mean"), 
-#             group = 1, size = 1.0, position = pd) +
-#   scale_fill_manual(values = getPalette(colourCount)) +
-#   theme(legend.position = "bottom") +
-#   xlab("Year") + 
-#   ylab("CO2 (ppm)") +
-#   ggtitle("Average CO2 Concentration (ppm), Afrobarometer Countries") +
-#   theme_minimal() +
-#   ylim(350, 410) +
-#   labs(color = "Country") +
-#   labs(linetype = "")
-# 
-# line_350
 
 
   
