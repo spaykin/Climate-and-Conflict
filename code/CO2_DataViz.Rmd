@@ -19,7 +19,7 @@ library(lubridate)
 ```
 
 # Introduction
-This document shows data preparation and visualization of yearly carbon dioxide concentration data for 24 African countries from 2015-2018 (all available dates). These countries were selected based on research project scope that focuses on data available via Afrobarometer dataset. All data was downloaded courtesy of AidData["https://www.aiddata.org/geoquery"], a Research Lab at William & Mary. 
+This document shows data preparation and visualization of yearly carbon dioxide concentration data for 24 African countries from 2015-2018 (all available dates). These countries were selected based on research project scope that focuses on data available via Afrobarometer dataset. All data was downloaded courtesy of [AidData]("https://www.aiddata.org/geoquery"), a Research Lab at William & Mary. 
 
 *Original data source:*
 O'Dell, C. W., Connor, B., Bösch, H., O'Brien, D., Frankenberg, C., Castano, R., Christi, M., Eldering, D., Fisher, B., Gunson, M., McDuffie, J., Miller, C. E., Natraj, V., Oyafuso, F., Polonsky, I., Smyth, M., Taylor, T., Toon, G. C., Wennberg, P. O., and Wunch, D.: The ACOS CO2 retrieval algorithm – Part 1: Description and validation against synthetic observations, Atmos. Meas. Tech., 5, 99-121, https://doi.org/10.5194/amt-5-99-2012, 2012.
